@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!-- BiomeBGC Properties for SLUCE2                                                     --> 
+<!-- This document specifies the location of the BiomeBGC files                         -->
+<!-- Created: 01/15/2011                                                  				-->
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+
+	<entry key="bgcExecutable">/home/meghan/Applications/Biome-BGC/biomebgc-4.2/bgc</entry>
+	<entry key="bgcSharedFileLocation">/home/meghan/Desktop/SLUCE2-Environment/SLUCE2-BGC-Share/</entry>
+	<entry key="bgcTmpLocation">/home/meghan/Desktop/SLUCE2-Environment/SLUCE2-BGC-tmp/</entry>
+	
+	<entry key="bgcInitFileName">initialization.ini</entry>
+	<entry key="bgcRestartInputFileName">restartInput.endpoint</entry>
+	<entry key="bgcRestartOutputFileName">restartOutput.endpoint</entry>
+	<entry key="bgcAnnualOutputFileName">output.annout</entry>
+	
+	<entry key="bgcDefaultMeteorologyFileName">meteorology/default.mtc50</entry>
+	<entry key="bgcIrrigateOnScheduleMeteorologyFileName">meteorology/scheduled.mtc50</entry>
+	<entry key="bgcIrrigateWhenDryMeteorologyFileName">meteorology/whenDry.mtc50</entry>
+	
+	<entry key="bgcTurfGrassEPCFileName">epc/c3grass.epc</entry>
+	<entry key="bgcDeciduousForestEPCFileName">epc/dbf.epc</entry>
+	<entry key="bgcShrubEPCFileName">epc/shrub.epc</entry>
+	<entry key="bgcPrairieEPCFileName">epc/c4grass.epc</entry>
+
+</properties>

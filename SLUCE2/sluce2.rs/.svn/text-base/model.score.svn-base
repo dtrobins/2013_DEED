@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<score:SContext xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:score="http://scoreabm.org/score" label="ModelContext" ID="ModelContext" pluralLabel="ModelContexts">
+
+  <implementation package="sluce2" className="" basePath="../SLUCE2" mode="AUTO"/>
+  
+  <agents xsi:type="score:SContext" label="AgentContext" ID="AgentContext" pluralLabel="AgentContexts">
+    <implementation package="sluce2.agent" className="AgentContext"/>
+  </agents>
+  
+  <agents xsi:type="score:SContext" label="InstitutionContext" ID="InstitutionContext" pluralLabel="InstitutionContexts">
+    <implementation package="sluce2.institution" className="InstitutionContext"/>
+  </agents>
+  
+  <agents xsi:type="score:SContext" label="MarketContext" ID="MarketContext" pluralLabel="MarketContexts">
+    <implementation package="sluce2.market" className="MarketContext"/>
+  </agents>
+  
+  <agents xsi:type="score:SContext" label="ManagementContext" ID="ManagementContext" pluralLabel="ManagementContexts">
+    <implementation package="sluce2.management" className="ManagementContext"/>
+  </agents>
+  
+  <agents xsi:type="score:SContext" label="LandscapeContext" ID="LandscapeContext" pluralLabel="LandscapeContexts">
+    <implementation package="sluce2.landscape" className="LandscapeContext"/>
+    <projections xsi:type="score:SGrid" label="CellGrid" ID="CellGrid" pluralLabel="CellGrids" borderRule="STRICT"/>
+  </agents>
+  
+  <agents xsi:type="score:SContext" label="EcosystemContext" ID="EcosystemContext" pluralLabel="EcosystemContexts">
+    <implementation package="sluce2.carve" className="CarveContext"/>
+  </agents>
+
+</score:SContext>

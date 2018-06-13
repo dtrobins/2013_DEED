@@ -1,0 +1,36 @@
+######################################################
+# SLUCE2 Properties File
+# http://www.cscs.umich.edu/sluce/publications.html
+# Author: Meghan Hutchins
+# Created: 2010-10-07
+#
+# This properties file holds absolute paths to 
+# resources needed to run the SLUCE2 agent-based model.
+#######################################################
+
+# -----------------------------------------------------------------
+# Absolute path to the location of the landscape descriptor.
+# Relevant landscape data is stored in a set of raster files. 
+LANDSCAPE_DESCRIPTOR = /home/meghan/Applications/RepastS-Eclipse/eclipse/workspace/SLUCE2/src/sluce2/resources/landscape/IEMSS-LandscapeDescriptor.xml
+
+# -----------------------------------------------------------------
+# Absolute path to the location of the development template descriptor.
+# When subdivisions are developed, a separate set of raster files 
+# are used to "stamp" the new landcover onto the current landscape.
+DEVELOPMENT_TEMPLATE_DESCRIPTOR = /home/meghan/Applications/RepastS-Eclipse/eclipse/workspace/SLUCE2/src/sluce2/resources/landscape/template/DevelopmentTemplateDescriptor.xml
+
+# -----------------------------------------------------------------
+# Absolute path to the location of the ecosystem model descriptor.
+# In this case, the properties file specifying how BiomeBGC should be run.
+ECOSYSTEM_MODEL_DESCRIPTOR = /home/meghan/Applications/RepastS-Eclipse/eclipse/workspace/SLUCE2/src/sluce2/resources/ecosystem/BiomeBGCDescriptor.xml
+ 
+# -----------------------------------------------------------------
+# Absolute path to the location of the archived raster files.
+# Archived raster file data will be used for statistical analysis.
+LANDSCAPE_ARCHIVE_LOCATION = /home/meghan/Desktop/SLUCE2-Environment/SLUCE2-Experiments/exp0/RasterOutput/
+    
+# -----------------------------------------------------------------
+# Report Files
+# Absolute path to the location of output report files.
+REPORT_LOCATION = /home/meghan/Desktop/SLUCE2-Environment/SLUCE2-Experiments/exp0/ReportOutput/
+

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!-- This file describes template raster data used in the Sluce2 model.  --> 
+<!-- XML format complies with the protocol used by the HELIA libraries   -->
+<!-- to read raster data files into a Java program.                      -->
+<!-- HELIA currently does not support vector data.                       -->
+<!--                                                                     -->
+<!-- Raster Data Types Supported:                                        -->
+<!-- Boolean, Bit, Byte, Short, RLC (Run-length coded)                   -->
+<!-- Integer, Float, ArcObjects                                          -->
+<!--                                                                     -->
+<!-- Created: 10/12/2010                                                 -->
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+<LandscapeLayerGroup ID="0" Name="DevelopmentTemplates">
+
+	<LandscapeLayerGroup ID="1" Name="IEMSS-1">
+
+	<LandscapeLayer ID="100" Type="Raster">
+			<LayerName>Landuse</LayerName>
+			<StoragePath>/home/meghan/Desktop/SLUCE2-Environment/SLUCE2-Model/Landscape/DevelopmentTemplates/landuse.txt</StoragePath>
+			<Scale>
+				<width>12</width>
+				<height>6</height>
+			</Scale>
+			<DataType>Integer</DataType>
+		</LandscapeLayer>
+
+		<LandscapeLayer ID="101" Type="Raster">
+			<LayerName>Landcover</LayerName>
+			<StoragePath>/home/meghan/Desktop/SLUCE2-Environment/SLUCE2-Model/Landscape/DevelopmentTemplates/landcover.txt</StoragePath>
+			<Scale>
+				<width>12</width>
+				<height>6</height>
+			</Scale>
+			<DataType>Integer</DataType>
+		</LandscapeLayer>
+		
+		<LandscapeLayer ID="102" Type="Raster">
+			<LayerName>Parcel</LayerName>
+			<StoragePath>/home/meghan/Desktop/SLUCE2-Environment/SLUCE2-Model/Landscape/DevelopmentTemplates/parcel.txt</StoragePath>
+			<Scale>
+				<width>12</width>
+				<height>6</height>
+			</Scale>
+			<DataType>Integer</DataType>
+		</LandscapeLayer>
+		
+		<LandscapeLayer ID="103" Type="Raster">
+			<LayerName>SecondaryRoad</LayerName>
+			<StoragePath>/home/meghan/Desktop/SLUCE2-Environment/SLUCE2-Model/Landscape/DevelopmentTemplates/road-secondary.txt</StoragePath>
+			<Scale>
+				<width>12</width>
+				<height>6</height>
+			</Scale>
+			<DataType>Integer</DataType>
+		</LandscapeLayer>
+	
+	</LandscapeLayerGroup>
+	
+	<LandscapeLayerGroup ID="2" Name="IEMSS-Init">
+
+	<LandscapeLayer ID="200" Type="Raster">
+			<LayerName>Landuse</LayerName>
+			<StoragePath>/home/meghan/Desktop/SLUCE2-Environment/SLUCE2-Model/Landscape/DevelopmentTemplates/landuse.txt</StoragePath>
+			<Scale>
+				<width>12</width>
+				<height>6</height>
+			</Scale>
+			<DataType>Integer</DataType>
+		</LandscapeLayer>
+
+		<LandscapeLayer ID="201" Type="Raster">
+			<LayerName>Landcover</LayerName>
+			<StoragePath>/home/meghan/Desktop/SLUCE2-Environment/SLUCE2-Model/Landscape/DevelopmentTemplates/landcover.txt</StoragePath>
+			<Scale>
+				<width>12</width>
+				<height>6</height>
+			</Scale>
+			<DataType>Integer</DataType>
+		</LandscapeLayer>
+		
+		<LandscapeLayer ID="202" Type="Raster">
+			<LayerName>Parcel</LayerName>
+			<StoragePath>/home/meghan/Desktop/SLUCE2-Environment/SLUCE2-Model/Landscape/DevelopmentTemplates/parcel.txt</StoragePath>
+			<Scale>
+				<width>12</width>
+				<height>6</height>
+			</Scale>
+			<DataType>Integer</DataType>
+		</LandscapeLayer>
+		
+		<LandscapeLayer ID="203" Type="Raster">
+			<LayerName>SecondaryRoad</LayerName>
+			<StoragePath>/home/meghan/Desktop/SLUCE2-Environment/SLUCE2-Model/Landscape/DevelopmentTemplates/road-secondary.txt</StoragePath>
+			<Scale>
+				<width>12</width>
+				<height>6</height>
+			</Scale>
+			<DataType>Integer</DataType>
+		</LandscapeLayer>
+	
+	</LandscapeLayerGroup>
+
+</LandscapeLayerGroup>
+

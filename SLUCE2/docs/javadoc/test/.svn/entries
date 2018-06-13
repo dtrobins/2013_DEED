@@ -1,0 +1,31 @@
+10
+
+dir
+260
+svn+ssh://luce.cscs.lsa.umich.edu/users/sluce2/Development/SLUCE2/trunk/SLUCE2/docs/javadoc/test
+svn+ssh://luce.cscs.lsa.umich.edu/users/sluce2/Development/SLUCE2
+
+
+
+2010-11-20T00:31:54.379935Z
+142
+meghan
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+e86305ba-3964-45e3-aabf-42b9e23d0501
+
+sluce2
+dir
+

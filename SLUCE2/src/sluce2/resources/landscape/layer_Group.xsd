@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:complexType name="LandscapeLayerGroupType">
+		<xs:sequence minOccurs="0" maxOccurs="unbounded">
+			<xs:element name="LandscapeLayer" type="landscapeLayerType" minOccurs="0" maxOccurs="unbounded" />
+			<xs:element name="LandscapeLayerGroup" type="LandscapeLayerGroupType" minOccurs="0" maxOccurs="unbounded" />
+		</xs:sequence>
+		<xs:attribute name="ID" type="xs:positiveInteger" use="required" />
+		<xs:attribute name="Name" type="xs:string" use="required" />
+	</xs:complexType>
+	<xs:complexType name="landscapeLayerType">
+		<xs:all>
+			<xs:element name="LayerName" type="xs:string" />
+			<xs:element name="StoragePath" type="xs:string" />
+			<xs:element name="Scale" type="scaleType" />
+			<xs:element name="DataType" type="xs:string" />
+		</xs:all>
+		<xs:attribute name="ID" type="xs:positiveInteger" use="required" />
+		<xs:attribute name="Type" type="xs:string" use="required" />
+	</xs:complexType>
+	<xs:complexType name="scaleType">
+		<xs:all>
+			<xs:element name="width" type="xs:positiveInteger" />
+			<xs:element name="height" type="xs:positiveInteger" />
+		</xs:all>
+	</xs:complexType>
+	<!-- Only one element in the XML file. -->
+	<xs:element name="LandscapeLayerGroup" type="LandscapeLayerGroupType"></xs:element>
+</xs:schema>

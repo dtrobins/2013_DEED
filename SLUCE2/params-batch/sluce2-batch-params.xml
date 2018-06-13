@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<sweep runs="1">
+
+  <parameter name="runLength" type="constant" constant_type="number" value="50.0" />
+  <parameter name="randomSeed" type="number" start="1" end="1.0" step="1"/>
+ 
+  <!-- Could probably just get this from the INI file --> 
+  <parameter name="startYear" type="constant" constant_type="number" value="1956" />
+  
+<!-- ~~~~~~~~~~~ -->  
+<!-- Agent Types -->  
+  
+  <!-- Init number of each agent type (NB: Number of RuralLandOwners are determined by the number of farm parcels in the initial landscape) -->
+  <parameter name="initNbrOfDeveloperAgents" type="constant" constant_type="number" value="1" />
+  <parameter name="initNbrOfLandBrokerAgents" type="constant" constant_type="number" value="1" />
+  <parameter name="initNbrOfResidentHouseholdAgents" type="constant" constant_type="number" value="4" />
+  
+<!-- ~~~~~~~~~~~~~~~~~~~~~ -->  
+<!-- Management Parameters -->
+  
+  <!-- Percent Litter Removed -->  
+  <parameter name="prctLitterRemovedNone" type="constant" constant_type="number" value="0.00" />
+  <parameter name="prctLitterRemovedHigh" type="constant" constant_type="number" value="0.99" />
+  <parameter name="prctLitterRemovedMedium" type="constant" constant_type="number" value="0.50" />
+  <parameter name="prctLitterRemovedLow" type="constant" constant_type="number" value="0.25" />
+  
+  <!-- Percent Coarse Woody Debris Removed -->  
+  <parameter name="prctCoarseWoodyDebrisRemovedNone" type="constant" constant_type="number" value="0.00" />
+  <parameter name="prctCoarseWoodyDebrisRemovedHigh" type="constant" constant_type="number" value="0.99" />
+  <parameter name="prctCoarseWoodyDebrisRemovedMedium" type="constant" constant_type="number" value="0.50" />
+  <parameter name="prctCoarseWoodyDebrisRemovedLow" type="constant" constant_type="number" value="0.25" />
+  
+  <!-- Fertilizer -->
+  <parameter name="fertilizerAdditionNone" type="constant" constant_type="number" value="0.000" />
+  <parameter name="fertilizerAdditionHigh" type="constant" constant_type="number" value="0.0200" />
+  <parameter name="fertilizerAdditionMedium" type="constant" constant_type="number" value="0.0180" />
+  <parameter name="fertilizerAdditionLow" type="constant" constant_type="number" value="0.0160" />
+  
+</sweep>

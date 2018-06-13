@@ -1,0 +1,25 @@
+<context id="ModelContext">
+  
+  <context id="AgentContext">
+  </context>
+  
+  <context id="InstitutionContext">  
+  </context>
+  
+  <context id="MarketContext">
+    
+  </context>
+  <context id="ManagementContext">
+    
+  </context>
+  
+  <context id="LandscapeContext">
+    <projection id="CellGrid" type="grid">
+      <attribute id="border rule" value="STRICT" type="string"/>
+    </projection>
+  </context>
+  
+  <context id="EcosystemContext">  
+  </context>
+  
+</context>

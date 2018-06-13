@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!-- This file describes raster data used within the Sluce2 model.       --> 
+<!-- XML format complies with the protocol used by the HELIA libraries   -->
+<!-- to read raster data files into a Java program.                      -->
+<!-- HELIA currently does not support vector data.                       -->
+<!--                                                                     -->
+<!-- Raster Data Types Supported:                                        -->
+<!-- Boolean, Bit, Byte, Short, RLC (Run-length coded)                   -->
+<!-- Integer, Float, ArcObjects                                          -->
+<!--                                                                     -->
+<!-- Created: 10/12/2010                                                 -->
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+<LandscapeLayerGroup ID="0" Name="Sluce2Landscape">
+
+	<LandscapeLayerGroup ID="1" Name="LandscapeLayerGroup">
+
+        <!-- ~~~~~~~~~ -->
+        <!-- From ABM  -->
+        
+		<LandscapeLayer ID="101" Type="Raster">
+			<LayerName>Landuse</LayerName>
+			<StoragePath>/home/meghan/Desktop/SLUCE2-Environment/SLUCE2-Model/Landscape/CurrentLandscape/landuse.txt</StoragePath>
+			<Scale>
+				<width>12</width>
+				<height>6</height>
+			</Scale>
+			<DataType>Integer</DataType>
+		</LandscapeLayer>
+
+		<LandscapeLayer ID="102" Type="Raster">
+			<LayerName>Landcover</LayerName>
+			<StoragePath>/home/meghan/Desktop/SLUCE2-Environment/SLUCE2-Model/Landscape/CurrentLandscape/landcover.txt</StoragePath>
+			<Scale>
+				<width>12</width>
+				<height>6</height>
+			</Scale>
+			<DataType>Integer</DataType>
+		</LandscapeLayer>
+		
+		<LandscapeLayer ID="103" Type="Raster">
+			<LayerName>Subdivision</LayerName>
+			<StoragePath>/home/meghan/Desktop/SLUCE2-Environment/SLUCE2-Model/Landscape/CurrentLandscape/subdivision.txt</StoragePath>
+			<Scale>
+				<width>12</width>
+				<height>6</height>
+			</Scale>
+			<DataType>Integer</DataType>
+		</LandscapeLayer>
+
+		<LandscapeLayer ID="104" Type="Raster">
+			<LayerName>Parcel</LayerName>
+			<StoragePath>/home/meghan/Desktop/SLUCE2-Environment/SLUCE2-Model/Landscape/CurrentLandscape/parcel.txt</StoragePath>
+			<Scale>
+				<width>12</width>
+				<height>6</height>
+			</Scale>
+			<DataType>Integer</DataType>
+		</LandscapeLayer>
+
+		<LandscapeLayer ID="105" Type="Raster">
+			<LayerName>CountyRoad</LayerName>
+			<StoragePath>/home/meghan/Desktop/SLUCE2-Environment/SLUCE2-Model/Landscape/CurrentLandscape/road-county.txt</StoragePath>
+			<Scale>
+				<width>12</width>
+				<height>6</height>
+			</Scale>
+			<DataType>Integer</DataType>
+		</LandscapeLayer>
+		
+		<LandscapeLayer ID="106" Type="Raster">
+			<LayerName>SecondaryRoad</LayerName>
+			<StoragePath>/home/meghan/Desktop/SLUCE2-Environment/SLUCE2-Model/Landscape/CurrentLandscape/road-secondary.txt</StoragePath>
+			<Scale>
+				<width>12</width>
+				<height>6</height>
+			</Scale>
+			<DataType>Integer</DataType>
+		</LandscapeLayer>
+		
+		
+		<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+        <!-- From From Annual Output File  -->
+        
+		<LandscapeLayer ID="107" Type="Raster">
+			<LayerName>litrc</LayerName>
+			<StoragePath>/home/meghan/Desktop/SLUCE2-Environment/SLUCE2-Model/Landscape/CurrentLandscape/litrc.txt</StoragePath>
+			<Scale>
+				<width>12</width>
+				<height>6</height>
+			</Scale>
+			<DataType>Float</DataType>
+		</LandscapeLayer>	
+		
+		<LandscapeLayer ID="108" Type="Raster">
+			<LayerName>nee</LayerName>
+			<StoragePath>/home/meghan/Desktop/SLUCE2-Environment/SLUCE2-Model/Landscape/CurrentLandscape/nee.txt</StoragePath>
+			<Scale>
+				<width>12</width>
+				<height>6</height>
+			</Scale>
+			<DataType>Float</DataType>
+		</LandscapeLayer>
+		
+		<LandscapeLayer ID="109" Type="Raster">
+			<LayerName>nep</LayerName>
+			<StoragePath>/home/meghan/Desktop/SLUCE2-Environment/SLUCE2-Model/Landscape/CurrentLandscape/nep.txt</StoragePath>
+			<Scale>
+				<width>12</width>
+				<height>6</height>
+			</Scale>
+			<DataType>Float</DataType>
+		</LandscapeLayer>
+		
+		<LandscapeLayer ID="110" Type="Raster">
+			<LayerName>npp</LayerName>
+			<StoragePath>/home/meghan/Desktop/SLUCE2-Environment/SLUCE2-Model/Landscape/CurrentLandscape/npp.txt</StoragePath>
+			<Scale>
+				<width>12</width>
+				<height>6</height>
+			</Scale>
+			<DataType>Float</DataType>
+		</LandscapeLayer>	
+
+		<LandscapeLayer ID="111" Type="Raster">
+			<LayerName>soilc</LayerName>
+			<StoragePath>/home/meghan/Desktop/SLUCE2-Environment/SLUCE2-Model/Landscape/CurrentLandscape/soilc.txt</StoragePath>
+			<Scale>
+				<width>12</width>
+				<height>6</height>
+			</Scale>
+			<DataType>Float</DataType>
+		</LandscapeLayer>
+		
+		<LandscapeLayer ID="112" Type="Raster">
+			<LayerName>totalc</LayerName>
+			<StoragePath>/home/meghan/Desktop/SLUCE2-Environment/SLUCE2-Model/Landscape/CurrentLandscape/totalc.txt</StoragePath>
+			<Scale>
+				<width>12</width>
+				<height>6</height>
+			</Scale>
+			<DataType>Float</DataType>
+		</LandscapeLayer>
+		
+		<LandscapeLayer ID="113" Type="Raster">
+			<LayerName>vegc</LayerName>
+			<StoragePath>/home/meghan/Desktop/SLUCE2-Environment/SLUCE2-Model/Landscape/CurrentLandscape/vegc.txt</StoragePath>
+			<Scale>
+				<width>12</width>
+				<height>6</height>
+			</Scale>
+			<DataType>Float</DataType>
+		</LandscapeLayer>
+		
+		<LandscapeLayer ID="113" Type="Raster">
+			<LayerName>cwdc</LayerName>
+			<StoragePath>/home/meghan/Desktop/SLUCE2-Environment/SLUCE2-Model/Landscape/CurrentLandscape/cwdc.txt</StoragePath>
+			<Scale>
+				<width>12</width>
+				<height>6</height>
+			</Scale>
+			<DataType>Float</DataType>
+		</LandscapeLayer>
+	
+	</LandscapeLayerGroup>
+	
+</LandscapeLayerGroup>
+
